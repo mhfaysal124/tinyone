@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Font Start*/
+@font-face {
+    font-family: PTC55F;
+    src: url(../font/pt-sans/PTC55F.ttf);
+}
+/*Font End*/
+
+/*Header Section Start*/
+header, .slider{
+    background-color: #fcdb00;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.h_content{
+    padding: 37px 0;
+    overflow: hidden;
+}
+.h_logo{
+    width: 15.5%;
+    float: left;
+}
+.h_logo a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+}
+.h_logo a img{
+    float: left;
+}
+.h_logo a h2{
+    float: right;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.navigation{
+    width: 44%;
+    overflow: hidden;
+    float: right;
+    margin-top: 8px;
+}
+.navigation ul{
+    float: right;
+}
+.navigation ul li{
+    float: left;
+    margin-right: 75px;
+    list-style-type: none;
+}
+.navigation ul li:last-child{
+    margin-right: 0;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: PTC55F;
+    display: inline-block;
+}
+/*Header Section End*/
+/*Slider Section start*/
+.slider_content{
+    padding: 10px 0;
+    overflow: hidden;
+}
+.s_text{
+    width: 43%;
+    float: left;
+    margin: 75px 0;
+}
+.s_text h1{
+    color: #010101;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: PTC55F;
+    margin: 15px 0;
+}
+.s_text h3{
+    color: #010101;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: PTC55F;
+    margin: 15px 0;
+}
+.s_text p{
+    color: #010101;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: PTC55F;
+    margin: 15px 0;
+}
+.s_icon{
+    margin: 30px 0;
+}
+.s_icon a{
+    margin-right: 35px;
+}
+
+.s_img{
+    float: right;
+    width: 40%;
+    margin: 0 auto;
+}
+.s_bulet{
+    width: 0%;
+    margin: 0 auto;
+}
+.s_bulet img{
+    padding: 40px 0;
+    cursor: pointer;
+}
+/*Slider Section end*/
+/*Fetures Section Start*/
+.fetures_content{
+    margin: 120px 0;
+}
+.fetures_head{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fetures_head h1{
+    color: #010101;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: PTC55F;
+    margin-bottom: 20px;
+}
+.fetures_head p{
+    color: #010101;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: PTC55F;
+    margin-bottom: 15px;
+    margin-bottom: 100px;
+}
+.all_fetures{
+    overflow: hidden;
+    margin-bottom: 81px;
+}
+.single_fetures{
+    width: 29%;
+    float: left;
+    margin-right: 6.5%;
+    overflow: hidden;
+}
+.single_fetures:last-child{
+    margin-right: 0;
+}
+.single_fetures img{
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 30px 81px 0;
+}
+.single_fetures h2{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: PTC55F;
+    padding-bottom: 15px;
+}
+.single_fetures p{
+    color: #010101;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: PTC55F;
+}
+/*Fetures Section End*/
+/*Footer Section Start*/
+.footer{
+    background-color: black;
+}
+.f_content{
+    padding: 81px 0;
+    overflow: hidden;
+}
+.f_head{
+    width: 81%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.f_head h1{
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: PTC55F;
+    padding-bottom: 15px;
+}
+.f_head p{
+    color: #898989;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: PTC55F;
+    padding-bottom: 25px;
+}
+.f_form{
+    width: 81%;
+    margin: 0 auto;
+}
+.f_form input{
+    width: 76%;
+    padding: 14px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: PTC55F;
+    border: none;
+    border-radius: 5px;
+}
+.f_form button{
+    padding: 14px 40px;
+    margin: 20px 0;
+    margin-left: 23px;
+    background-color: #fcdb00;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: PTC55F;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.social_link{
+    width: 30%;
+    margin: 0 auto;
+}
+.social_link a{
+}
+.social_link a img{
+    margin: 45px 20px;
+}
+
+
+
+
+
+/*Footer Section End*/
